@@ -11,5 +11,5 @@ def getPokemonStats(name):
            output = output + i['stat']['name']+':'+str(i['base_stat'])+'\n'
         return output
     else:
-        return 'Pokemon not found'
+        return 'Pokemon illa'
 #print(getPokemonStats('squirtle'))
