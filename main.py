@@ -16,7 +16,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(update)
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please dont talk to me!")
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token('TOKEN').build()
